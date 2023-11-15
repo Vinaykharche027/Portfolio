@@ -1,0 +1,29 @@
+[
+  {
+    "role": "Web Developer intern",
+    "organisation": "Hackmaster.org",
+    "startDate": "Oct, 2022",
+    "endDate": "Present",
+    "experiences": ["Working on frontend and backend both", "Designed UI/UX of client's Website"],
+    "imageSrc": "history/hackmaster.png"
+  },
+  {
+    "role": "Machine learning intern",
+    "organisation": "Internship Studio",
+    "startDate": "june, 2023",
+    "endDate": "july, 2023",
+    "experiences": ["Worked on youtube ads Data", "Developed ML model to predict ad views on video"],
+    "imageSrc": "history/internshipstudio.png"
+  },
+  {
+    "role": "Accenture Data Analytics Job Simulation",
+    "organisation": "Forage",
+    "startDate": "Oct, 2023",
+    "endDate": "Oct, 2023",
+    "experiences": [
+      "Worked on Data Modeling and cleaning",
+      "Created an meaningful insights from the data"
+    ],
+    "imageSrc": "history/forage.png"
+  }
+]
