@@ -3,6 +3,14 @@ import React from "react";
 import styles from "./About.module.css";
 import { getImageUrl } from "../../utils";
 
+
+const About_data = [
+  { Degree: "MCA", University: "Sandip University, Nashik" , Year: "2024", percentage: "7.69 (1st yr)" },
+  { Degree: "BSc", University: "Sant Gadge Baba Amravati University" , Year: "2022", percentage: "78.04" },
+  { Degree: "HSC", University: "State board of maharashtra", Year: "2019", percentage: "63.23"},
+  { Degree: "SSC", University: "State board of maharashtra", Year: "2017", percentage: "74.60"},
+]
+
 export const About = () => {
   return (
     <section className={styles.container} id="about">
@@ -15,38 +23,26 @@ export const About = () => {
         />
         <ul className={styles.aboutItems}>
 
-          
-
-          <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" />
-            <div className={styles.aboutItemText}>
-              <h3>Data Analyst</h3>
-              <p>
-                I have hands on Experience on Data modeling, Data Wrangling and Data Analytical techniques
-              </p>
-            </div>
-          </li>
-
-          <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/cursorIcon.png")} alt="UI icon" />
-            <div className={styles.aboutItemText}>
-              <h3>Machine Learning</h3>
-              <p>
-                I have Expertise in Machine learning i have done an internship on machine learning from internship studio
-              </p>
-            </div>
-          </li>
-
-          <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
-            <div className={styles.aboutItemText}>
-              <h3>Web Development</h3>
-              <p>
-                I'm a Web Developer with experience in building responsive
-                and optimized sites
-              </p>
-            </div>
-          </li>
+        <div className="About_">
+            <table className="tb">
+                <tr>
+                    <th>Degree</th>
+                    <th>University/Board</th>
+                    <th>Year</th>
+                    <th>Percentage</th>
+                </tr>
+                {About_data.map((val, key) => {
+                    return (
+                        <tr key={key}>
+                            <td>{val.Degree}</td>
+                            <td>{val.University}</td>
+                            <td>{val.Year}</td>
+                            <td>{val.percentage}</td>
+                        </tr>
+                    )
+                })}
+            </table>
+        </div>
           
         </ul>
       </div>
