@@ -1,23 +1,23 @@
 [
   {
-    "title": "Covid 19 Detection",
-    "imageSrc": "projects/project.png",
-    "description": "This project developed to detect COVID by the CT-Scan Image of the Patient",
-    "skills": ["Python", "Machine learning", "EDA", "Image processing"],
-    "source": "https://github.com/Vinaykharche027/Capstone-project"
-  },
-  {
-    "title": "Netflix Data Analysis",
-    "imageSrc": "projects/project.png",
-    "description": "In this project i have analysed the Netflix dataset.",
-    "skills": ["Python", "Data Wrangling", "EDA", "Pipeline"],
-    "source": "https://github.com/Vinaykharche027/Netflix-Data-Analysis-using-python"
+    "title": "Bank Customer Churn Prediction",
+    "imageSrc": "projects/Bank.png",
+    "description": "I developed an ML model for predicting bank customer churn.",
+    "skills": ["Python", "ML", "EDA"],
+    "source": "https://github.com/Vinaykharche027/Bank-customer-churn"
   },
   {
     "title": "Youtube adview prediction",
-    "imageSrc": "projects/project.png",
+    "imageSrc": "projects/youtube.png",
     "description": "In this project i have developed a ML Model to predict the Adview on the video",
     "skills": ["Python", "ML", "ANN"],
     "source": "https://github.com/Vinaykharche027/Youtube-adview-prediction"
+  },
+  {
+    "title": "Covid 19 Detection",
+    "imageSrc": "projects/covid_19.png",
+    "description": "This project developed to detect COVID by the CT-Scan Image of the Patient",
+    "skills": ["Python", "ML", "EDA", "Image processing"],
+    "source": "https://github.com/Vinaykharche027/Capstone-project"
   }
 ]
