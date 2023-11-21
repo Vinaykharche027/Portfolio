@@ -14,14 +14,7 @@ const About_data = [
 export const About = () => {
   return (
     <section className={styles.container} id="about">
-      <h2 className={styles.title}>About</h2>
-      <div className={styles.content}>
-        <img
-          src={getImageUrl("about/aboutImage.png")}
-          alt="Me sitting with a laptop"
-          className={styles.aboutImage}
-        />
-        <ul className={styles.aboutItems}>
+      <h2 className={styles.title}>Education</h2>
 
         <div className="About_">
             <table className="tb">
@@ -44,8 +37,7 @@ export const About = () => {
             </table>
         </div>
           
-        </ul>
-      </div>
+        
     </section>
   );
 };
