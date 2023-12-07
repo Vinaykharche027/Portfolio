@@ -5,7 +5,7 @@ import { getImageUrl } from "../../utils";
 
 
 const About_data = [
-  { Degree: "MCA", University: "Sandip University, Nashik" , Year: "Present", percentage: "7.69" },
+  { Degree: "MCA", University: "Sandip University" , Year: "Present", percentage: "7.69" },
   { Degree: "BSc", University: "Sant Gadge Baba Amravati University" , Year: "2022", percentage: "78.04" },
   { Degree: "HSC", University: "State board of maharashtra", Year: "2019", percentage: "63.23"},
   { Degree: "SSC", University: "State board of maharashtra", Year: "2017", percentage: "74.60"},
