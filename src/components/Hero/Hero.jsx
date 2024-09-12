@@ -9,7 +9,9 @@ export const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I'm Vinay</h1>
         <p className={styles.description}>
-          I'm a final year Student of MCA in Sandip University Nashik. with Expertise in Data Science. Reach out if you'd like to learn more!
+           Analytically minded professional proficient in SQL, Python, and Snowflake with a keen eye for detail and a 
+passion for problem-solving. Eager learner and collaborative team player seeking entry-level opportunities to 
+leverage skills and contribute to a dynamic team environment.
         </p>
         <a href="mailto:vinaykharche027@email.com" className={styles.contactBtn}>
           Contact Me
